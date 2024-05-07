@@ -9,3 +9,4 @@
 - Im Ordner Datei hello_world.js anlegen
 - Pfad zu "main" in package.json aktualisieren
 - Ausgabe Testen console.log("Hello, world!")
+- node .
