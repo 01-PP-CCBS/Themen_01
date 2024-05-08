@@ -1,26 +1,3 @@
-/* Deklaration + Wertzuweisung I
-
-let firstName; //deklaration
-
-firstName = "Max"; //wertzuweisung / assignment
-
-console.log(firstName); //ausgabe
-
-let familyName = "Connnnon";
-
-console.log("Hi, ich bin " + firstName + " " + familyName + "!");
-
- */
-
-/*
-[10:36] Peter Schmidt
-  
-
-    Wertzuweisung II + Datentypen 
-
-    JS ist ein untypisierte Sprache!
-
-*/
 // Zeilenkommentar | Strg + #
 
 /**
@@ -50,24 +27,36 @@ console.log("Hi, ich bin " + firstName + " " + familyName + "!"); // --> Hi, ich
     JS ist ein untypisierte Sprache!
 */
 
-let test;
-console.log("Inhalt: " + test); // Ausgabe Inhalt
-console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
-console.log("-------------------");
+// let test;
+// console.log("Inhalt: " + test); // Ausgabe Inhalt
+// console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+// console.log("-------------------");
 
-test = "hi"; // 'hi' string
-console.log("Inhalt: " + test); // Ausgabe Inhalt
-console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
-console.log("-------------------");
+// test = "hi"; // 'hi' string
+// console.log("Inhalt: " + test); // Ausgabe Inhalt
+// console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+// console.log("-------------------");
 
-test = 2; // number
-console.log("Inhalt: " + test); // Ausgabe Inhalt
-console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
-console.log("-------------------");
+// test = 2; // number
+// console.log("Inhalt: " + test); // Ausgabe Inhalt
+// console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+// console.log("-------------------");
 
-test = true; // boolean
-console.log("Inhalt: " + test); // Ausgabe Inhalt
-console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
-console.log("-------------------");
+// test = true; // boolean
+// console.log("Inhalt: " + test); // Ausgabe Inhalt
+// console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+// console.log("-------------------");
 
+/* Variablen vs. Konstanten in JS */
+
+// Variable
+let test; // Variable : Deklaration
+test = "hi"; // Wertzuweisung (Initialisierung)
+test = "hello"; // Überschreiben
+console.log("Inhalt: " + test); // Ausgabe 
+
+// Konstante
+const test2 = "Hi!";  // Deklaration + Wertzuweisung gemeinsam !
+test2 = "hello"; // Laufzeitfehler !!
+console.log("Inhalt: " + test2); // Ausgabe 
 
