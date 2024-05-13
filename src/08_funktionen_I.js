@@ -39,4 +39,13 @@ function outputNames2(firstName)
     console.log("Hallo, " + firstName + "!");
 }
 
+/***** Funktionen 02c *****/
+// 2c. Mehrere Parameter / Argumente
 
+const prompt = require('prompt-sync')({sigint: true});
+outputNames3(prompt("Vorname : "),prompt("Nachname : "));
+
+function outputNames3(firstName, familyName) 
+{
+    console.log("Hallo, " + firstName + " " + familyName + "!");
+}
