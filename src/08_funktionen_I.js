@@ -25,3 +25,18 @@ function outputNames(params)
 
     console.log("Hallo, " + firstName + "!");    
 }
+
+// console.log(firstName); // Fehler: scope!
+
+/***** Funktionen 02b *****/
+// 2b. Parametrisierung + Datenübergabe von AUSSEN
+
+outputNames2("Esther");
+outputNames2("Jan");
+
+function outputNames2(firstName) 
+{
+    console.log("Hallo, " + firstName + "!");
+}
+
+
