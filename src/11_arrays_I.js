@@ -68,6 +68,32 @@ function getSentenceArr(arr) {
 
 
 
+/* 02a. Theorie: Schleifen (for-schleife) */
+/* For -Schleifen als allg. Wiederholungs-Struktur */
+
+//inkrement
+/*
+for (let i = 0; i < 10; i++) { 
+
+    output("index: " + i)    
+}
+*/
+
+//dekrement
+/*
+for (let i = 10; i >= 0; i--) { 
+
+    output("index: " + i)    
+}
+*/
+
+//inkrement (var. Schrittweite)
+/*
+for (let i = 0; i <= 100; i += 5) { 
+
+    output("index: " + i)    
+}
+*/
 
 // Modul: Ausgabe in Konsole : Test
 // output("hi"); 
