@@ -95,6 +95,16 @@ for (let i = 0; i <= 100; i += 5) {
 }
 */
 
+
+/* 02b. For-Schleife für Array-Index (Iteration)*/
+
+let arr = ["Ich","bin","die","coole","Maxine","Mützerich"];
+
+for (let i = 0; i < arr.length; i++) {
+    output("intern: " + i + " - extern: " + arr[i])
+    
+}
+
 // Modul: Ausgabe in Konsole : Test
 // output("hi"); 
 function output(outputStr) {
